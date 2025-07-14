@@ -53,3 +53,7 @@ READ X WRITE O MOVE RIGHT NEXT HALT
 END
 
 INITIAL 1234567
+
+;; Everything below here is ignored (since INITIAL is always the final line of a program)
+
+If the final non-blank symbol on the tape is E, the number is even. If it's O, it's odd
