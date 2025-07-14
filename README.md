@@ -6,6 +6,8 @@
 
 A simple simulator that allows you to define and run Turing machine programs.
 
+This program is licensed under the GNU General Public License, version 3. See the [LICENSE file](/LICENSE) for more info.
+
 ## === Overview ===
 
 This project provides a Python-based Turing machine simulator that executes programs written in a custom notation. The simulator reads a program file that defines symbols and state transitions, then executes the program on an input tape.
