@@ -26,7 +26,7 @@ class Instruction:
         self.next = next
     
     def __repr__(self) -> str:
-        return f"READ {self.read} WRITE {self.write} MOVE {"LEFT" if self.move == LEFT else "RIGHT"} NEXT {self.next if self.next is not None else HALT}"
+        return f"READ {self.read} WRITE {self.write} MOVE {'LEFT' if self.move == LEFT else 'RIGHT'} NEXT {self.next if self.next is not None else HALT}"
 
     def __eq__(self, other: Any):
         if not isinstance(other, Instruction):
