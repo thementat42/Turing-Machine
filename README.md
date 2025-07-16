@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-![Turing](https://img.shields.io/badge/Machine-Turing-blueviolet)
 
 A simple simulator that allows you to define and run Turing machine programs.
 
